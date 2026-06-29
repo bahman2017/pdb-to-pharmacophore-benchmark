@@ -1,0 +1,194 @@
+{
+  "pdb_id": "9TZD",
+  "target_profile": null,
+  "search_shell_a": {
+    "min": 4.0,
+    "max": 6.0
+  },
+  "constraints": [
+    {
+      "point_id": 1,
+      "coordinates": {
+        "x": -16.342,
+        "y": 2.146,
+        "z": 6.653
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "ILE114A",
+        "VAL117A",
+        "ILE172A",
+        "LEU194A",
+        "LEU115A",
+        "ALA175A",
+        "LEU193A",
+        "ALA95A",
+        "ALA3A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 2,
+      "coordinates": {
+        "x": -19.342,
+        "y": -10.354,
+        "z": 5.153
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "ARG46A",
+        "LEU49A",
+        "ALA45A",
+        "ASP67A",
+        "ILE68A",
+        "ARG16A",
+        "ASP24A"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "point_id": 3,
+      "coordinates": {
+        "x": -20.342,
+        "y": -12.354,
+        "z": 8.653
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "ARG47A",
+        "LEU13A",
+        "ILE48A",
+        "ILE22A",
+        "ALA20A",
+        "ALA15A",
+        "ARG46A",
+        "ASP24A",
+        "ASP21A",
+        "TYR4A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 4,
+      "coordinates": {
+        "x": -19.842,
+        "y": -11.354,
+        "z": 8.153
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "ALA45A",
+        "ARG16A",
+        "ILE48A",
+        "LEU40A",
+        "LEU12A",
+        "ASP24A",
+        "ASP21A",
+        "ALA20A",
+        "LEU49A",
+        "LEU13A",
+        "TYR4A",
+        "ARG46A",
+        "ALA15A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 5,
+      "coordinates": {
+        "x": -15.342,
+        "y": 2.646,
+        "z": 12.153
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "LEU127A",
+        "ALA119A",
+        "MET173A",
+        "LEU182A",
+        "ALA196A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 6,
+      "coordinates": {
+        "x": -15.342,
+        "y": -0.354,
+        "z": 11.153
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "ASP24A",
+        "ALA5A",
+        "ALA3A",
+        "ALA196A",
+        "PHE174A",
+        "VAL124A",
+        "VAL195A",
+        "LEU49A",
+        "SER176A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 7,
+      "coordinates": {
+        "x": -21.842,
+        "y": -8.854,
+        "z": 4.653
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "ALA20A",
+        "GLU1A",
+        "ILE2A",
+        "ILE48A",
+        "ALA3A",
+        "ARG46A",
+        "ARG16A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 8,
+      "coordinates": {
+        "x": -9.842,
+        "y": 3.146,
+        "z": 7.653
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "LEU104A",
+        "PRO72A",
+        "VAL117A",
+        "ALA118A",
+        "VAL71A",
+        "MET173A",
+        "ASP73A",
+        "ALA95A",
+        "LEU115A",
+        "ALA70A",
+        "TRP128A"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "publication_note": "Sanitized public benchmark export. Proprietary engine parameters, local paths, and generated molecules were removed."
+}

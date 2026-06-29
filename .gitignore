@@ -1,0 +1,24 @@
+# Generated molecules and proprietary assets
+*.sdf
+*.smi
+*.mol
+*.mol2
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Engine and private research paths
+core_engine/
+src/
+research_lab/
+data/raw/
+data/generated_molecules/
+generated_candidates/
+
+# Environment and OS
+__pycache__/
+.DS_Store
+.env
+*.zip

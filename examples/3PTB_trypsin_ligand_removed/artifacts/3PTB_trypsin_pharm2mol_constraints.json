@@ -1,0 +1,267 @@
+{
+  "pdb_id": "3PTB_CLEAN",
+  "target_profile": {
+    "pdb_id": "3PTB_clean",
+    "biomarker": "Apo trypsin active-site recovery (ligand removed)",
+    "cellular_context": {
+      "temperature_K": 298.0,
+      "microenvironment_pH": 7.4
+    }
+  },
+  "search_shell_a": {
+    "min": 4.0,
+    "max": 6.0
+  },
+  "constraints": [
+    {
+      "point_id": 1,
+      "coordinates": {
+        "x": -4.201,
+        "y": 11.277,
+        "z": 17.517
+      },
+      "inferred_type": "hbond_donor_acceptor",
+      "rationale": "Hydrogen-bond donor/acceptor",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "GLN192A",
+        "ILE16A",
+        "VAL213A",
+        "CYS220A",
+        "TYR228A",
+        "VAL17A",
+        "ASN143A"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "point_id": 2,
+      "coordinates": {
+        "x": -4.201,
+        "y": 11.277,
+        "z": 30.017
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "LEU33A",
+        "GLY43A",
+        "TRP141A",
+        "GLY193A",
+        "ILE73A",
+        "VAL31A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 3,
+      "coordinates": {
+        "x": -4.201,
+        "y": 14.777,
+        "z": 22.517
+      },
+      "inferred_type": "hbond_donor_acceptor",
+      "rationale": "Hydrogen-bond donor/acceptor",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "GLY142A",
+        "ASN143A",
+        "TYR151A"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "point_id": 4,
+      "coordinates": {
+        "x": 6.299,
+        "y": 1.777,
+        "z": 31.017
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "VAL52A",
+        "ASN48A",
+        "VAL53A",
+        "TYR29A",
+        "ILE121A",
+        "VAL31A",
+        "SER120A",
+        "GLY44A",
+        "ALA119A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 5,
+      "coordinates": {
+        "x": -4.201,
+        "y": 10.277,
+        "z": 17.017
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "TYR228A",
+        "ILE16A",
+        "VAL17A",
+        "VAL213A",
+        "ILE138A",
+        "LEU158A",
+        "CYS220A",
+        "GLN192A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 6,
+      "coordinates": {
+        "x": 8.799,
+        "y": 1.777,
+        "z": 18.517
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "VAL199A",
+        "PRO124A",
+        "CYS232A",
+        "LYS204A",
+        "PHE181A",
+        "LYS230A",
+        "THR229A",
+        "CYS201A",
+        "ILE212A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 7,
+      "coordinates": {
+        "x": -4.201,
+        "y": 14.277,
+        "z": 21.017
+      },
+      "inferred_type": "hbond_donor_acceptor",
+      "rationale": "Hydrogen-bond donor/acceptor",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "SER195A",
+        "SER190A",
+        "GLY142A",
+        "ASN143A",
+        "CYS220A",
+        "VAL213A"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "point_id": 8,
+      "coordinates": {
+        "x": -1.701,
+        "y": 14.777,
+        "z": 29.017
+      },
+      "inferred_type": "negative_ionizable",
+      "rationale": "Salt-bridge to basic receptor side chain",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "HIS40A",
+        "GLY43A",
+        "LEU33A",
+        "GLY193A",
+        "CYS58A",
+        "SER195A"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "point_id": 9,
+      "coordinates": {
+        "x": -4.201,
+        "y": 13.777,
+        "z": 20.017
+      },
+      "inferred_type": "hbond_donor_acceptor",
+      "rationale": "Hydrogen-bond donor/acceptor",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "CYS220A",
+        "SER195A",
+        "VAL213A",
+        "ASN143A",
+        "GLY142A",
+        "ILE16A"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "point_id": 10,
+      "coordinates": {
+        "x": 7.799,
+        "y": 1.777,
+        "z": 30.017
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "VAL53A",
+        "VAL52A",
+        "ILE121A",
+        "SER120A",
+        "LEU209A",
+        "TYR29A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 11,
+      "coordinates": {
+        "x": 8.799,
+        "y": 12.777,
+        "z": 29.517
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "SER54A",
+        "ALA56A",
+        "ILE106A",
+        "SER88A",
+        "ILE103A",
+        "ILE89A",
+        "VAL90A",
+        "TYR59A",
+        "CYS58A",
+        "VAL53A"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 12,
+      "coordinates": {
+        "x": -1.201,
+        "y": 0.277,
+        "z": 18.017
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "VAL199A",
+        "LYS159A",
+        "PRO198A",
+        "SER139A",
+        "ALA160A"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "publication_note": "Sanitized public benchmark export. Proprietary engine parameters, local paths, and generated molecules were removed."
+}

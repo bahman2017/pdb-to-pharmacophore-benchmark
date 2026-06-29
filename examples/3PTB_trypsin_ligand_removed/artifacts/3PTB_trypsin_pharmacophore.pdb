@@ -1,0 +1,13 @@
+HETATM    1  DU  PHM A   1      -4.201  11.277  17.517  1.00 50.00           X
+HETATM    2  DU  PHM A   1      -4.201  11.277  30.017  1.00 50.00           X
+HETATM    3  DU  PHM A   1      -4.201  14.777  22.517  1.00 50.00           X
+HETATM    4  DU  PHM A   1       6.299   1.777  31.017  1.00 50.00           X
+HETATM    5  DU  PHM A   1      -4.201  10.277  17.017  1.00 50.00           X
+HETATM    6  DU  PHM A   1       8.799   1.777  18.517  1.00 50.00           X
+HETATM    7  DU  PHM A   1      -4.201  14.277  21.017  1.00 50.00           X
+HETATM    8  DU  PHM A   1      -1.701  14.777  29.017  1.00 50.00           X
+HETATM    9  DU  PHM A   1      -4.201  13.777  20.017  1.00 50.00           X
+HETATM   10  DU  PHM A   1       7.799   1.777  30.017  1.00 50.00           X
+HETATM   11  DU  PHM A   1       8.799  12.777  29.517  1.00 50.00           X
+HETATM   12  DU  PHM A   1      -1.201   0.277  18.017  1.00 50.00           X
+END
