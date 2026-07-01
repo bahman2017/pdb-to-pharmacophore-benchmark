@@ -1,0 +1,267 @@
+{
+  "pdb_id": "5CEZ_native",
+  "campaign": "HIV-1 Env CD4-binding site therapeutic scaffold (Golden Set)",
+  "target_profile": {
+    "pdb_id": "5CEZ_native",
+    "biomarker": "HIV-1 Env CD4 Binding Site (Native Glycan Shield)",
+    "cellular_context": {
+      "temperature_K": 310.0,
+      "microenvironment_pH": 7.4
+    }
+  },
+  "search_shell_a": {
+    "min": 4.0,
+    "max": 6.0
+  },
+  "constraints": [
+    {
+      "point_id": 1,
+      "coordinates": {
+        "x": -361.32,
+        "y": 232.346,
+        "z": 0.97
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "GLY343G",
+        "LYS347G",
+        "THR341G",
+        "LEU342G",
+        "LEU349G",
+        "ILE272G",
+        "GLU340G"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "point_id": 2,
+      "coordinates": {
+        "x": -362.32,
+        "y": 232.846,
+        "z": 1.97
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "LEU342G",
+        "VAL270G",
+        "GLU340G",
+        "LYS347G",
+        "GLN348G"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "point_id": 3,
+      "coordinates": {
+        "x": -363.32,
+        "y": 232.346,
+        "z": 5.47
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "VAL346G",
+        "TRP395G",
+        "TRP338G",
+        "LYS347G"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "point_id": 4,
+      "coordinates": {
+        "x": -360.32,
+        "y": 246.346,
+        "z": 11.47
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "VAL292G",
+        "ASN332G",
+        "VAL333G",
+        "ILE449G",
+        "ASN448G",
+        "VAL446G"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 5,
+      "coordinates": {
+        "x": -361.82,
+        "y": 232.346,
+        "z": 9.97
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "TRP338G",
+        "TRP395G",
+        "LEU390G",
+        "SER393G",
+        "GLY343G",
+        "PHE361G",
+        "THR341G",
+        "ASN339G",
+        "PHE391G"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 6,
+      "coordinates": {
+        "x": -349.32,
+        "y": 243.846,
+        "z": 0.47
+      },
+      "inferred_type": "hbond_donor_acceptor",
+      "rationale": "Hydrogen-bond donor/acceptor",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "ASN478G",
+        "THR450G",
+        "LEU260G",
+        "GLN287G",
+        "TYR484G",
+        "LEU483G",
+        "ASN262G"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 7,
+      "coordinates": {
+        "x": -359.32,
+        "y": 246.346,
+        "z": 11.97
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "VAL333G",
+        "ASN332G",
+        "VAL292G",
+        "ILE449G",
+        "ASN448G",
+        "LEU261G",
+        "VAL446G"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "point_id": 8,
+      "coordinates": {
+        "x": -352.32,
+        "y": 246.346,
+        "z": -0.03
+      },
+      "inferred_type": "hbond_donor_acceptor",
+      "rationale": "Hydrogen-bond donor/acceptor",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "THR450G",
+        "GLN287G"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "point_id": 9,
+      "coordinates": {
+        "x": -349.32,
+        "y": 233.346,
+        "z": 3.97
+      },
+      "inferred_type": "negative_ionizable",
+      "rationale": "Salt-bridge to basic receptor side chain",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "ARG273G",
+        "ASN283G"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "point_id": 10,
+      "coordinates": {
+        "x": -348.82,
+        "y": 238.846,
+        "z": 11.97
+      },
+      "inferred_type": "hbond_donor_acceptor",
+      "rationale": "Hydrogen-bond donor/acceptor",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "SER256G",
+        "HIS374G",
+        "GLY471G",
+        "ILE453G",
+        "LEU260G",
+        "GLY472G",
+        "THR373G",
+        "SER375G"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "point_id": 11,
+      "coordinates": {
+        "x": -349.32,
+        "y": 237.846,
+        "z": 11.97
+      },
+      "inferred_type": "hydrophobic_aromatic",
+      "rationale": "Hydrophobic or aromatic contact",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "GLY471G",
+        "ILE453G",
+        "HIS374G",
+        "SER256G",
+        "PRO470G",
+        "GLY472G",
+        "LEU260G",
+        "THR373G"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "point_id": 12,
+      "coordinates": {
+        "x": -349.82,
+        "y": 232.846,
+        "z": 7.97
+      },
+      "inferred_type": "hbond_donor_acceptor",
+      "rationale": "Hydrogen-bond donor/acceptor",
+      "radius": 1.5,
+      "nearest_receptor_residues": [
+        "THR455G",
+        "GLY471G",
+        "PRO470G",
+        "ARG469G",
+        "LEU285G",
+        "ASN283G",
+        "VAL286G",
+        "GLN258G"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "validation_metrics": {
+    "wall_clock_min": 1.74,
+    "anchor_retention_pct": 91.7,
+    "glycan_atoms_retained": 645,
+    "final_scaffold_da": 693.45,
+    "physics_informed": true,
+    "target_specific_ml_training": false
+  }
+}

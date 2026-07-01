@@ -1,10 +1,34 @@
 # PDB-to-Pharmacophore Constraint Benchmark (Public Artifacts)
 
-This repository contains non-confidential benchmark artifacts from a lightweight PDB-to-pharmacophore constraint workflow. The workflow converts ligand-stripped or apo-style protein structures into explainable spatial anchor points, inferred pharmacophore features, generator-ready JSON constraints, and 3D visualization artifacts. This is not a validated drug discovery product and does not claim therapeutic efficacy. The benchmark is intended to demonstrate scientific AI workflow automation, protein-structure analysis, and downstream molecule-design constraint generation. A lightweight, training-free PDB-to-pharmacophore constraint benchmark that demonstrates explainable active-site and epitope-adjacent anchor generation from public protein structures.
+This repository contains non-confidential benchmark artifacts from a lightweight PDB-to-pharmacophore constraint workflow. The workflow converts ligand-stripped or apo-style protein structures into explainable spatial anchor points, inferred pharmacophore features, generator-ready JSON constraints, and 3D visualization artifacts. This is not a validated drug discovery product and does not claim therapeutic efficacy. The benchmark is intended to demonstrate scientific AI workflow automation, protein-structure analysis, and downstream molecule-design constraint generation.
+
+Repository: [github.com/bahman2017/pdb-to-pharmacophore-benchmark](https://github.com/bahman2017/pdb-to-pharmacophore-benchmark)
+
+## Featured Success Case — HIV-1 Env CD4-Binding Site Therapeutic Scaffold
+
+The **Golden Set** validation for PDB **5CEZ** demonstrates an end-to-end, **physics-informed** campaign—from native glycosylated Env processing through Pharm2Mol constraint export to a **693.45 Da** linked therapeutic scaffold—achieved via **TDF ground-state search without target-specific machine learning training**.
+
+This candidate is **protected by a patent filing** and showcases the platform's capability to **bridge long-span glycan gaps** while retaining explainable pharmacophore anchors in the native pocket coordinate frame.
+
+| Metric (PDB 5CEZ) | Result |
+|-------------------|--------|
+| Wall-clock time | **1.74 min** |
+| Glycan atoms retained | **645** |
+| Anchor retention (vs stripped reference) | **91.7%** |
+| Pharmacophore anchors | **12** |
+| Final linked scaffold | **693.45 Da** |
+| Target-specific ML training | **None** (physics-informed TDF) |
+
+**Artifacts:** [`case_studies/hiv_therapeutic_5cez/`](case_studies/hiv_therapeutic_5cez/)
+
+- `5CEZ_native_linked_candidate.sdf` — final 3D molecular scaffold
+- `constraints.json` — 12 Pharm2Mol pharmacophore anchors
+- `README.md` — full end-to-end campaign documentation
 
 ## What This Repository Contains
 
 - Public benchmark examples derived from PDB structures (`3PTB`, `9TZD`, `5CEZ`)
+- **Golden Set case study** with linked therapeutic scaffold (`case_studies/hiv_therapeutic_5cez/`)
 - Explainable pharmacophore constraint JSON files
 - Candidate-generation planning markdown (high-level, non-proprietary)
 - Pharmacophore point-cloud PDB files (`DU` dummy anchors)
@@ -15,15 +39,16 @@ This repository contains non-confidential benchmark artifacts from a lightweight
 
 - Core engine source code, proprietary formulas, PINN optimizers, or scoring internals
 - Bio2Physics, Pharm2Mol, molecule generation, fragment linking, or ADMET implementation code
-- Generated small molecules, scaffolds, SDF/SMILES files, or synthesized candidate structures
 - Wet-lab data, clinical claims, or efficacy conclusions
 - Private repository paths, credentials, or machine-specific environment details
+
+> **Note:** The Golden Set case study intentionally publishes the **final linked scaffold SDF** and **constraint JSON** as portfolio evidence. Other example bundles remain anchor-only.
 
 ## Important Disclaimers
 
 **No therapeutic claims.** These artifacts demonstrate workflow automation and structural constraint export only. They do not establish safety, efficacy, immunogenicity, neutralization, or clinical relevance.
 
-**No molecule/scaffold disclosure.** This public repository intentionally excludes de novo generated molecules and linked scaffolds. Only explainable anchor points and constraint metadata are published.
+**Patent-protected scaffold.** The 5CEZ linked candidate is disclosed under pending intellectual property protection for portfolio evaluation only.
 
 **Public PDB provenance.** Source structures are publicly available Protein Data Bank entries. Users should cite the original PDB depositions and associated publications when reusing these materials.
 
@@ -32,6 +57,7 @@ This repository contains non-confidential benchmark artifacts from a lightweight
 ## Repository Layout
 
 ```
+case_studies/      # Golden Set validated campaigns (HIV-1 5CEZ therapeutic scaffold)
 examples/          # Per-target benchmark bundles
 docs/              # Non-confidential methodology and limitations
 benchmark_summary.md
@@ -40,9 +66,20 @@ THIRD_PARTY_DATA_NOTICE.md
 
 ## Quick Start
 
-1. Open `benchmark_summary.md` for a cross-target overview.
-2. Browse `examples/<target>/artifacts/` for JSON, PDB, HTML, and planning files.
-3. Read `docs/limitations.md` before interpreting feature labels or anchor coordinates.
+1. Read the **Featured Success Case**: [`case_studies/hiv_therapeutic_5cez/README.md`](case_studies/hiv_therapeutic_5cez/README.md)
+2. Open `benchmark_summary.md` for a cross-target overview.
+3. Browse `examples/<target>/artifacts/` for JSON, PDB, HTML, and planning files.
+4. Read `docs/limitations.md` before interpreting feature labels or anchor coordinates.
+
+## Reproducing the 5CEZ Golden Set
+
+From the companion `tdf-benchmark-suite` repository:
+
+```bash
+python -m tdf_benchmark_suite.runner --target-case hiv-therapeutic
+```
+
+This applies glycan-aware boundary conditions (**310 K**, **pH 7.4**) used in the patent-backed run.
 
 ## License
 
