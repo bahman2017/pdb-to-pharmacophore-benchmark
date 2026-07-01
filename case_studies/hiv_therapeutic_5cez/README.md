@@ -16,11 +16,11 @@ By accessing this case study, you acknowledge this intellectual property protect
 
 ---
 
-This folder documents the **validated end-to-end campaign** for a **693.45 Da** epitope-anchored therapeutic scaffold targeting the HIV-1 envelope CD4-binding site. The workflow demonstrates how a **physics-informed**, **training-free** TDF ground-state search bridges long-span glycan gaps on native glycosylated Env—without target-specific machine learning.
+This folder documents the **end-to-end computational case study** for a **693.45 Da** epitope-anchored therapeutic scaffold targeting the HIV-1 envelope CD4-binding site. The workflow demonstrates how a **physics-informed**, **training-free** TDF ground-state search bridges long-span glycan gaps on native glycosylated Env—without target-specific machine learning.
 
 No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 
-## End-to-End Campaign
+## End-to-End Computational Case Study
 
 | Stage | Description | Artifact |
 |-------|-------------|----------|
@@ -49,7 +49,7 @@ No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 |------|-------------|
 | `constraints.json` | Pharm2Mol-exported pharmacophore constraints (12 anchors) with validation metadata — **publicly published** |
 | `5CEZ_native_linked_candidate.sdf` | **Placeholder SDF** (header + patent notice only). Full **693.45 Da** 3D structure available upon [authorized request](#️-ip--patent-status) |
-| `README.md` | This end-to-end campaign summary |
+| `README.md` | This end-to-end computational case study summary |
 
 ## Physics-Informed Design Principles
 

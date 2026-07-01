@@ -6,7 +6,7 @@ Repository: [github.com/bahman2017/pdb-to-pharmacophore-benchmark](https://githu
 
 ## Featured Success Case — HIV-1 Env CD4-Binding Site Therapeutic Scaffold
 
-The **Golden Set** validation for PDB **5CEZ** demonstrates an end-to-end, **physics-informed** campaign—from native glycosylated Env processing through Pharm2Mol constraint export to a **693.45 Da** linked therapeutic scaffold—achieved via **TDF ground-state search without target-specific machine learning training**.
+The **Golden Set** for PDB **5CEZ** documents an **end-to-end computational case study**—a **physics-informed** workflow from native glycosylated Env processing through Pharm2Mol constraint export to a **693.45 Da** linked therapeutic scaffold—achieved via **TDF ground-state search without target-specific machine learning training**.
 
 This candidate is **protected by a patent filing** and showcases the platform's capability to **bridge long-span glycan gaps** while retaining explainable pharmacophore anchors in the native pocket coordinate frame.
 
@@ -23,7 +23,7 @@ This candidate is **protected by a patent filing** and showcases the platform's 
 
 - `5CEZ_native_linked_candidate.sdf` — **placeholder SDF** (header + IP notice only; full 693.45 Da structure available upon authorized request)
 - `constraints.json` — 12 Pharm2Mol pharmacophore anchors (process metadata; publicly published)
-- `README.md` — full end-to-end campaign documentation
+- `README.md` — full end-to-end computational case study documentation
 
 ## ⚖️ IP & Patent Status
 
@@ -69,7 +69,7 @@ Researchers and auditors reviewing the HIV case study should read this notice **
 ## Repository Layout
 
 ```
-case_studies/      # Golden Set validated campaigns (HIV-1 5CEZ therapeutic scaffold)
+case_studies/      # Golden Set computational case studies (HIV-1 5CEZ therapeutic scaffold)
 examples/          # Per-target benchmark bundles
 docs/              # Non-confidential methodology and limitations
 benchmark_summary.md
