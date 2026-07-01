@@ -25,6 +25,16 @@ This candidate is **protected by a patent filing** and showcases the platform's 
 - `constraints.json` — 12 Pharm2Mol pharmacophore anchors
 - `README.md` — full end-to-end campaign documentation
 
+## ⚖️ IP & Patent Status
+
+The therapeutic scaffold generated in the [`hiv_therapeutic_5cez`](case_studies/hiv_therapeutic_5cez/) case study — including the linked structure in `5CEZ_native_linked_candidate.sdf` — is **subject to an active patent filing**.
+
+This artifact is published **for research, audit, and benchmark purposes only**. It is not licensed for product development, therapeutic use, or commercial exploitation without separate written permission.
+
+**Any commercial use or derivative development based on this specific molecular scaffold requires explicit authorization.**
+
+Researchers and auditors reviewing the HIV case study should read this notice **before** downloading, analyzing, modifying, or building upon the candidate SDF file or its structural coordinates.
+
 ## What This Repository Contains
 
 - Public benchmark examples derived from PDB structures (`3PTB`, `9TZD`, `5CEZ`)
@@ -48,7 +58,7 @@ This candidate is **protected by a patent filing** and showcases the platform's 
 
 **No therapeutic claims.** These artifacts demonstrate workflow automation and structural constraint export only. They do not establish safety, efficacy, immunogenicity, neutralization, or clinical relevance.
 
-**Patent-protected scaffold.** The 5CEZ linked candidate is disclosed under pending intellectual property protection for portfolio evaluation only.
+**Patent-protected scaffold.** The 5CEZ linked candidate is disclosed under pending intellectual property protection for portfolio evaluation only. See [⚖️ IP & Patent Status](#️-ip--patent-status) above.
 
 **Public PDB provenance.** Source structures are publicly available Protein Data Bank entries. Users should cite the original PDB depositions and associated publications when reusing these materials.
 

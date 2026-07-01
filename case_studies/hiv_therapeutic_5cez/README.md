@@ -1,8 +1,22 @@
 # Golden Set Case Study — HIV-1 Env CD4-Binding Site Therapeutic Scaffold (PDB 5CEZ)
 
+## ⚖️ IP & Patent Status
+
+> **Read before opening `5CEZ_native_linked_candidate.sdf`**
+
+The therapeutic scaffold in this case study — including the 3D structure in **`5CEZ_native_linked_candidate.sdf`** — is **subject to an active patent filing**.
+
+This material is provided **for research, audit, and benchmark purposes only**. It does not grant any license to manufacture, test in vivo, file regulatory submissions, or commercialize the disclosed structure.
+
+**Any commercial use or derivative development based on this specific molecular scaffold requires explicit authorization.**
+
+By accessing or using the SDF file, constraint JSON, or derived coordinates in this folder, you acknowledge this intellectual property protection and agree to limit use to non-commercial scientific review unless written permission is obtained.
+
+---
+
 This folder documents the **validated end-to-end campaign** for a **693.45 Da** epitope-anchored therapeutic scaffold targeting the HIV-1 envelope CD4-binding site. The workflow demonstrates how a **physics-informed**, **training-free** TDF ground-state search bridges long-span glycan gaps on native glycosylated Env—without target-specific machine learning.
 
-> **Intellectual property notice:** This candidate scaffold is protected by a **patent filing** and is published here solely as a portfolio Golden Set artifact. No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
+No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 
 ## End-to-End Campaign
 
@@ -32,7 +46,7 @@ This folder documents the **validated end-to-end campaign** for a **693.45 Da** 
 | File | Description |
 |------|-------------|
 | `constraints.json` | Pharm2Mol-exported pharmacophore constraints (12 anchors) with validation metadata |
-| `5CEZ_native_linked_candidate.sdf` | Final 3D molecular scaffold in native pocket coordinates (~x −361, y 232) |
+| `5CEZ_native_linked_candidate.sdf` | **Patent-filing-protected** final 3D molecular scaffold (~x −361, y 232) — see [⚖️ IP & Patent Status](#️-ip--patent-status) |
 | `README.md` | This end-to-end campaign summary |
 
 ## Physics-Informed Design Principles
