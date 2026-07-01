@@ -1,10 +1,10 @@
-# Golden Set Case Study — HIV-1 Env CD4-Binding Site Therapeutic Scaffold (PDB 5CEZ)
+# Golden Set Case Study — HIV-1 Env CD4-Binding Site Therapeutic-Scaffold Hypothesis (PDB 5CEZ)
 
 ## ⚖️ IP & Patent Status
 
 > **Read before requesting `5CEZ_native_linked_candidate.sdf`**
 
-The therapeutic scaffold in this case study is **subject to an active patent filing**. The file **`5CEZ_native_linked_candidate.sdf` in this public repository is a placeholder only** — it contains header metadata and an IP notice, **not** the full atomic coordinates of the **693.45 Da** linked structure.
+The therapeutic-scaffold hypothesis in this case study is **subject to an active patent filing**. The file **`5CEZ_native_linked_candidate.sdf` in this public repository is a placeholder only** — it contains header metadata and an IP notice, **not** the full atomic coordinates of the **693.45 Da** linked structure.
 
 This material is provided **for research, audit, and benchmark purposes only**. It does not grant any license to manufacture, test in vivo, file regulatory submissions, or commercialize the disclosed structure.
 
@@ -16,7 +16,7 @@ By accessing this case study, you acknowledge this intellectual property protect
 
 ---
 
-This folder documents the **end-to-end computational case study** for a **693.45 Da** epitope-anchored therapeutic scaffold targeting the HIV-1 envelope CD4-binding site. The workflow demonstrates how a **physics-informed**, **training-free** TDF ground-state search bridges long-span glycan gaps on native glycosylated Env—without target-specific machine learning.
+This folder documents the **end-to-end computational case study** for a **693.45 Da** epitope-anchored therapeutic-scaffold hypothesis targeting the HIV-1 envelope CD4-binding site. The workflow demonstrates how a **physics-informed**, **training-free** TDF ground-state search bridges long-span glycan gaps on native glycosylated Env—without target-specific machine learning.
 
 No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 
@@ -40,7 +40,7 @@ No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 | Glycan atoms retained | **645** |
 | Anchor retention (vs glycan-stripped reference) | **91.7%** |
 | Pharmacophore anchors exported | **12** |
-| Final linked scaffold | **693.45 Da** |
+| Final linked therapeutic-scaffold hypothesis | **693.45 Da** |
 | Target-specific ML training | **None** (physics-informed TDF ground-state search) |
 
 ## Files in This Folder

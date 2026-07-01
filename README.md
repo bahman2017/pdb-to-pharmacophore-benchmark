@@ -4,9 +4,9 @@ This repository contains non-confidential benchmark artifacts from a lightweight
 
 Repository: [github.com/bahman2017/pdb-to-pharmacophore-benchmark](https://github.com/bahman2017/pdb-to-pharmacophore-benchmark)
 
-## Featured Success Case — HIV-1 Env CD4-Binding Site Therapeutic Scaffold
+## Featured Success Case — HIV-1 Env CD4-Binding Site Therapeutic-Scaffold Hypothesis
 
-The **Golden Set** for PDB **5CEZ** documents an **end-to-end computational case study**—a **physics-informed** workflow from native glycosylated Env processing through Pharm2Mol constraint export to a **693.45 Da** linked therapeutic scaffold—achieved via **TDF ground-state search without target-specific machine learning training**.
+The **Golden Set** for PDB **5CEZ** documents an **end-to-end computational case study**—a **physics-informed** workflow from native glycosylated Env processing through Pharm2Mol constraint export to a **693.45 Da** linked therapeutic-scaffold hypothesis—achieved via **TDF ground-state search without target-specific machine learning training**.
 
 This candidate is **protected by a patent filing** and showcases the platform's capability to **bridge long-span glycan gaps** while retaining explainable pharmacophore anchors in the native pocket coordinate frame.
 
@@ -16,7 +16,7 @@ This candidate is **protected by a patent filing** and showcases the platform's 
 | Glycan atoms retained | **645** |
 | Anchor retention (vs stripped reference) | **91.7%** |
 | Pharmacophore anchors | **12** |
-| Final linked scaffold | **693.45 Da** |
+| Final linked therapeutic-scaffold hypothesis | **693.45 Da** |
 | Target-specific ML training | **None** (physics-informed TDF) |
 
 **Artifacts:** [`case_studies/hiv_therapeutic_5cez/`](case_studies/hiv_therapeutic_5cez/)
@@ -27,7 +27,7 @@ This candidate is **protected by a patent filing** and showcases the platform's 
 
 ## ⚖️ IP & Patent Status
 
-The therapeutic scaffold generated in the [`hiv_therapeutic_5cez`](case_studies/hiv_therapeutic_5cez/) case study is **subject to an active patent filing**. The public repository contains a **truncated placeholder SDF** — not the full atomic coordinates of the linked **693.45 Da** candidate.
+The therapeutic-scaffold hypothesis generated in the [`hiv_therapeutic_5cez`](case_studies/hiv_therapeutic_5cez/) case study is **subject to an active patent filing**. The public repository contains a **truncated placeholder SDF** — not the full atomic coordinates of the linked **693.45 Da** candidate.
 
 This artifact is published **for research, audit, and benchmark purposes only**. It is not licensed for product development, therapeutic use, or commercial exploitation without separate written permission.
 
@@ -54,7 +54,7 @@ Researchers and auditors reviewing the HIV case study should read this notice **
 - Wet-lab data, clinical claims, or efficacy conclusions
 - Private repository paths, credentials, or machine-specific environment details
 
-> **Note:** The Golden Set case study publishes **constraint JSON** and a **placeholder SDF** (no proprietary coordinates). The full linked scaffold is available upon authorized request. Other example bundles remain anchor-only.
+> **Note:** The Golden Set case study publishes **constraint JSON** and a **placeholder SDF** (no proprietary coordinates). The full linked therapeutic-scaffold hypothesis is available upon authorized request. Other example bundles remain anchor-only.
 
 ## Important Disclaimers
 
@@ -69,7 +69,7 @@ Researchers and auditors reviewing the HIV case study should read this notice **
 ## Repository Layout
 
 ```
-case_studies/      # Golden Set computational case studies (HIV-1 5CEZ therapeutic scaffold)
+case_studies/      # Golden Set computational case studies (HIV-1 5CEZ therapeutic-scaffold hypothesis)
 examples/          # Per-target benchmark bundles
 docs/              # Non-confidential methodology and limitations
 benchmark_summary.md
