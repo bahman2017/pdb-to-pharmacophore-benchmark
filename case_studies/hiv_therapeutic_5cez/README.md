@@ -2,15 +2,17 @@
 
 ## ⚖️ IP & Patent Status
 
-> **Read before opening `5CEZ_native_linked_candidate.sdf`**
+> **Read before requesting `5CEZ_native_linked_candidate.sdf`**
 
-The therapeutic scaffold in this case study — including the 3D structure in **`5CEZ_native_linked_candidate.sdf`** — is **subject to an active patent filing**.
+The therapeutic scaffold in this case study is **subject to an active patent filing**. The file **`5CEZ_native_linked_candidate.sdf` in this public repository is a placeholder only** — it contains header metadata and an IP notice, **not** the full atomic coordinates of the **693.45 Da** linked structure.
 
 This material is provided **for research, audit, and benchmark purposes only**. It does not grant any license to manufacture, test in vivo, file regulatory submissions, or commercialize the disclosed structure.
 
 **Any commercial use or derivative development based on this specific molecular scaffold requires explicit authorization.**
 
-By accessing or using the SDF file, constraint JSON, or derived coordinates in this folder, you acknowledge this intellectual property protection and agree to limit use to non-commercial scientific review unless written permission is obtained.
+The **full-fidelity SDF** is available **upon authorized request** for qualified research, audit, or due-diligence review. Contact the repository owner to obtain the complete 3D structure.
+
+By accessing this case study, you acknowledge this intellectual property protection. The published **`constraints.json`** describes the pharmacophore workflow and anchor geometry; it remains publicly available because it documents the process, not the proprietary final molecule.
 
 ---
 
@@ -27,7 +29,7 @@ No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 | **3. TDF-PINN ground-state search** | Phase-gated thermodynamic flux equilibrium (no target-specific ML training) localizes CD4bs pharmacophore minima through the glycan shield | 12 spatial anchors |
 | **4. Pharm2Mol constraint export** | Explainable pharmacophore features mapped to generator-ready JSON (`hydrophobic_aromatic`, `hbond_donor_acceptor`, `negative_ionizable`) | `constraints.json` |
 | **5. De novo fragment placement** | Spatially aligned chemical fragments at each anchor (TDF-PINN Vertical II) | `5CEZ_native_denovo_fragments.sdf` (benchmark suite) |
-| **6. Fragment linking & 3D assembly** | Distance-based bridging with carbon spacers across **long-span glycan gaps**; restrained MMFF/UFF relaxation | `5CEZ_native_linked_candidate.sdf` |
+| **6. Fragment linking & 3D assembly** | Distance-based bridging with carbon spacers across **long-span glycan gaps**; restrained MMFF/UFF relaxation | `5CEZ_native_linked_candidate.sdf` *(placeholder in public repo; full SDF via authorization)* |
 | **7. Phase-Quantum QUBO refinement** *(optional downstream)* | Combinatorial fragment-linking QUBO + entangled TDF sampling for discrete scaffold selection | Phase-Quantum `DrugDiscoveryPipeline` |
 
 ## Performance Summary (PDB 5CEZ)
@@ -45,8 +47,8 @@ No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 
 | File | Description |
 |------|-------------|
-| `constraints.json` | Pharm2Mol-exported pharmacophore constraints (12 anchors) with validation metadata |
-| `5CEZ_native_linked_candidate.sdf` | **Patent-filing-protected** final 3D molecular scaffold (~x −361, y 232) — see [⚖️ IP & Patent Status](#️-ip--patent-status) |
+| `constraints.json` | Pharm2Mol-exported pharmacophore constraints (12 anchors) with validation metadata — **publicly published** |
+| `5CEZ_native_linked_candidate.sdf` | **Placeholder SDF** (header + patent notice only). Full **693.45 Da** 3D structure available upon [authorized request](#️-ip--patent-status) |
 | `README.md` | This end-to-end campaign summary |
 
 ## Physics-Informed Design Principles

@@ -21,24 +21,26 @@ This candidate is **protected by a patent filing** and showcases the platform's 
 
 **Artifacts:** [`case_studies/hiv_therapeutic_5cez/`](case_studies/hiv_therapeutic_5cez/)
 
-- `5CEZ_native_linked_candidate.sdf` — final 3D molecular scaffold
-- `constraints.json` — 12 Pharm2Mol pharmacophore anchors
+- `5CEZ_native_linked_candidate.sdf` — **placeholder SDF** (header + IP notice only; full 693.45 Da structure available upon authorized request)
+- `constraints.json` — 12 Pharm2Mol pharmacophore anchors (process metadata; publicly published)
 - `README.md` — full end-to-end campaign documentation
 
 ## ⚖️ IP & Patent Status
 
-The therapeutic scaffold generated in the [`hiv_therapeutic_5cez`](case_studies/hiv_therapeutic_5cez/) case study — including the linked structure in `5CEZ_native_linked_candidate.sdf` — is **subject to an active patent filing**.
+The therapeutic scaffold generated in the [`hiv_therapeutic_5cez`](case_studies/hiv_therapeutic_5cez/) case study is **subject to an active patent filing**. The public repository contains a **truncated placeholder SDF** — not the full atomic coordinates of the linked **693.45 Da** candidate.
 
 This artifact is published **for research, audit, and benchmark purposes only**. It is not licensed for product development, therapeutic use, or commercial exploitation without separate written permission.
 
 **Any commercial use or derivative development based on this specific molecular scaffold requires explicit authorization.**
 
-Researchers and auditors reviewing the HIV case study should read this notice **before** downloading, analyzing, modifying, or building upon the candidate SDF file or its structural coordinates.
+The **full-fidelity SDF** (complete 3D structure in native pocket coordinates) is available **upon authorized request** for qualified research, audit, or due-diligence review. Contact the repository owner to request access.
+
+Researchers and auditors reviewing the HIV case study should read this notice **before** requesting or using the proprietary candidate structure. The published `constraints.json` describes the pharmacophore process and anchor geometry; it does not substitute for the protected final molecule.
 
 ## What This Repository Contains
 
 - Public benchmark examples derived from PDB structures (`3PTB`, `9TZD`, `5CEZ`)
-- **Golden Set case study** with linked therapeutic scaffold (`case_studies/hiv_therapeutic_5cez/`)
+- **Golden Set case study** with placeholder scaffold SDF and published constraints (`case_studies/hiv_therapeutic_5cez/`)
 - Explainable pharmacophore constraint JSON files
 - Candidate-generation planning markdown (high-level, non-proprietary)
 - Pharmacophore point-cloud PDB files (`DU` dummy anchors)
@@ -52,7 +54,7 @@ Researchers and auditors reviewing the HIV case study should read this notice **
 - Wet-lab data, clinical claims, or efficacy conclusions
 - Private repository paths, credentials, or machine-specific environment details
 
-> **Note:** The Golden Set case study intentionally publishes the **final linked scaffold SDF** and **constraint JSON** as portfolio evidence. Other example bundles remain anchor-only.
+> **Note:** The Golden Set case study publishes **constraint JSON** and a **placeholder SDF** (no proprietary coordinates). The full linked scaffold is available upon authorized request. Other example bundles remain anchor-only.
 
 ## Important Disclaimers
 
