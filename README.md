@@ -8,7 +8,7 @@ Repository: [github.com/bahman2017/pdb-to-pharmacophore-benchmark](https://githu
 
 The **Golden Set** for PDB **5CEZ** documents an **end-to-end computational case study**—a **physics-informed** workflow from native glycosylated Env processing through Pharm2Mol constraint export to a **693.45 Da** linked therapeutic-scaffold hypothesis—achieved via **TDF ground-state search without target-specific machine learning training**.
 
-This candidate is **protected by a patent filing** and showcases the platform's capability to **bridge long-span glycan gaps** while retaining explainable pharmacophore anchors in the native pocket coordinate frame.
+This candidate is **protected by a patent filing** and showcases the platform's capability to **construct a long-span scaffold across glycan-proximal anchor geometry** while retaining explainable pharmacophore anchors in the native pocket coordinate frame.
 
 | Metric (PDB 5CEZ) | Result |
 |-------------------|--------|

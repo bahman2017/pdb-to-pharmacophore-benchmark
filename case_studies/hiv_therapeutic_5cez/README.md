@@ -16,7 +16,7 @@ By accessing this case study, you acknowledge this intellectual property protect
 
 ---
 
-This folder documents the **end-to-end computational case study** for a **693.45 Da** epitope-anchored therapeutic-scaffold hypothesis targeting the HIV-1 envelope CD4-binding site. The workflow demonstrates how a **physics-informed**, **training-free** TDF ground-state search bridges long-span glycan gaps on native glycosylated Env—without target-specific machine learning.
+This folder documents the **end-to-end computational case study** for a **693.45 Da** epitope-anchored therapeutic-scaffold hypothesis targeting the HIV-1 envelope CD4-binding site. The workflow demonstrates how a **physics-informed**, **training-free** TDF ground-state search **constructs a long-span scaffold across glycan-proximal anchor geometry** on native glycosylated Env—without target-specific machine learning.
 
 No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 
@@ -29,7 +29,7 @@ No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 | **3. TDF-PINN ground-state search** | Phase-gated thermodynamic flux equilibrium (no target-specific ML training) localizes CD4bs pharmacophore minima through the glycan shield | 12 spatial anchors |
 | **4. Pharm2Mol constraint export** | Explainable pharmacophore features mapped to generator-ready JSON (`hydrophobic_aromatic`, `hbond_donor_acceptor`, `negative_ionizable`) | `constraints.json` |
 | **5. De novo fragment placement** | Spatially aligned chemical fragments at each anchor (TDF-PINN Vertical II) | `5CEZ_native_denovo_fragments.sdf` (benchmark suite) |
-| **6. Fragment linking & 3D assembly** | Distance-based bridging with carbon spacers across **long-span glycan gaps**; restrained MMFF/UFF relaxation | `5CEZ_native_linked_candidate.sdf` *(placeholder in public repo; full SDF via authorization)* |
+| **6. Fragment linking & 3D assembly** | Distance-based linking with carbon spacers across **glycan-proximal anchor geometry**; restrained MMFF/UFF relaxation | `5CEZ_native_linked_candidate.sdf` *(placeholder in public repo; full SDF via authorization)* |
 | **7. Phase-Quantum QUBO refinement** *(optional downstream)* | Combinatorial fragment-linking QUBO + entangled TDF sampling for discrete scaffold selection | Phase-Quantum `DrugDiscoveryPipeline` |
 
 ## Performance Summary (PDB 5CEZ)
