@@ -1,4 +1,4 @@
-# Golden Set Case Study — HIV-1 Env CD4-Binding Site Therapeutic-Scaffold Hypothesis (PDB 5CEZ)
+# Golden Set Case Study — HIV-1 Env CD4-Binding-Site Computational Scaffold Hypothesis (PDB 5CEZ)
 
 ## ⚖️ IP & Patent Status
 

@@ -4,7 +4,7 @@ This repository contains non-confidential benchmark artifacts from a lightweight
 
 Repository: [github.com/bahman2017/pdb-to-pharmacophore-benchmark](https://github.com/bahman2017/pdb-to-pharmacophore-benchmark)
 
-## Featured Success Case — HIV-1 Env CD4-Binding Site Therapeutic-Scaffold Hypothesis
+## Featured Success Case — HIV-1 Env CD4-Binding-Site Computational Scaffold Hypothesis
 
 The **Golden Set** for PDB **5CEZ** documents an **end-to-end computational case study**—a **physics-informed** workflow from native glycosylated Env processing through Pharm2Mol constraint export to a **693.45 Da** linked therapeutic-scaffold hypothesis—achieved via **TDF ground-state search without target-specific machine learning training**.
 

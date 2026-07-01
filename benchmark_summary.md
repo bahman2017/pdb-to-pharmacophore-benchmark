@@ -7,7 +7,7 @@
 | `9TZD` | Retrospective de novo enzyme / KempTIM1 benchmark; acidic-context stress test | 310 K, pH 6.5 | ~1.7 min | 8 | JSON constraints, generation plan, pharmacophore PDB, HTML viewer | Demonstrates context-aware constraint export on a public de novo enzyme structure; not a clinical or therapeutic validation |
 | `5CEZ_clean` | Viral protein epitope-surface constraint mapping demo (glycan-stripped) | 310 K, pH 7.4 | ~1.73 min | 12 | JSON constraints, generation plan, pharmacophore PDB, HTML viewer | Demonstrates epitope-adjacent surface anchor mapping on a glycan-stripped viral glycoprotein demo structure; not immunogen design or efficacy evidence |
 
-## Golden Set — HIV-1 Therapeutic-Scaffold Hypothesis (5CEZ)
+## Golden Set — HIV-1 Env CD4-Binding-Site Computational Scaffold Hypothesis (5CEZ)
 
 See [`case_studies/hiv_therapeutic_5cez/README.md`](case_studies/hiv_therapeutic_5cez/README.md) for the full end-to-end computational case study documentation, including:
 
