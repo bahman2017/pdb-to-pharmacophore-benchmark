@@ -9,6 +9,9 @@
 *.onnx
 *.ckpt
 
+# Golden Set published scaffolds (portfolio artifacts)
+!case_studies/hiv_therapeutic_5cez/5CEZ_native_linked_candidate.sdf
+
 # Engine and private research paths
 core_engine/
 src/
