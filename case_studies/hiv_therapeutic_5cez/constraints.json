@@ -1,6 +1,6 @@
 {
   "pdb_id": "5CEZ_native",
-  "campaign": "HIV-1 Env CD4-binding-site computational scaffold hypothesis (Golden Set)",
+  "campaign": "PDB-to-scaffold hypothesis workflow — HIV-1 Env CD4-binding site (Golden Set)",
   "target_profile": {
     "pdb_id": "5CEZ_native",
     "biomarker": "HIV-1 Env CD4 Binding Site (Native Glycan Shield)",

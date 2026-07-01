@@ -1,12 +1,14 @@
 # Golden Set Case Study — HIV-1 Env CD4-Binding-Site Computational Scaffold Hypothesis (PDB 5CEZ)
 
+> **We are not claiming a drug.** This folder demonstrates a **fast, explainable, patent-pending PDB-to-scaffold hypothesis workflow** on a publicly deposited HIV-1 Env structure. Outputs are computational hypotheses for audit and benchmark review—not validated medicines.
+
 ## ⚖️ IP & Patent Status
 
 > **Read before requesting `5CEZ_native_linked_candidate.sdf`**
 
-The therapeutic-scaffold hypothesis in this case study is **subject to an active patent filing**. The file **`5CEZ_native_linked_candidate.sdf` in this public repository is a placeholder only** — it contains header metadata and an IP notice, **not** the full atomic coordinates of the **693.45 Da** linked structure.
+The **computational scaffold hypothesis** in this case study is produced by a workflow **subject to an active patent filing**. The file **`5CEZ_native_linked_candidate.sdf` in this public repository is a placeholder only** — it contains header metadata and an IP notice, **not** the full atomic coordinates of the **693.45 Da** linked structure.
 
-This material is provided **for research, audit, and benchmark purposes only**. It does not grant any license to manufacture, test in vivo, file regulatory submissions, or commercialize the disclosed structure.
+This case study demonstrates workflow automation **for research, audit, and benchmark purposes only**. It does **not** claim a drug, grant rights to manufacture, test in vivo, file regulatory submissions, or commercialize any disclosed structure.
 
 **Any commercial use or derivative development based on this specific molecular scaffold requires explicit authorization.**
 
@@ -16,9 +18,9 @@ By accessing this case study, you acknowledge this intellectual property protect
 
 ---
 
-This folder documents the **end-to-end computational case study** for a **693.45 Da** epitope-anchored therapeutic-scaffold hypothesis targeting the HIV-1 envelope CD4-binding site. The workflow demonstrates how a **physics-informed**, **training-free** TDF ground-state search **constructs a long-span scaffold across glycan-proximal anchor geometry** on native glycosylated Env—without target-specific machine learning.
+This folder documents an **end-to-end computational case study** for our **patent-pending PDB-to-scaffold hypothesis workflow** on PDB **5CEZ**—producing a **693.45 Da** epitope-anchored **computational scaffold hypothesis** at the HIV-1 envelope CD4-binding site. The workflow shows how a **physics-informed**, **training-free** TDF ground-state search **constructs a long-span scaffold across glycan-proximal anchor geometry** on native glycosylated Env—without target-specific machine learning.
 
-No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
+**Not a drug claim.** No therapeutic efficacy, clinical safety, or immunogenicity is asserted.
 
 ## End-to-End Computational Case Study
 
@@ -40,7 +42,7 @@ No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 | Glycan atoms retained | **645** |
 | Anchor retention (vs glycan-stripped reference) | **91.7%** |
 | Pharmacophore anchors exported | **12** |
-| Final linked therapeutic-scaffold hypothesis | **693.45 Da** |
+| Final linked computational scaffold hypothesis | **693.45 Da** |
 | Target-specific ML training | **None** (physics-informed TDF ground-state search) |
 
 ## Files in This Folder
@@ -58,7 +60,7 @@ No therapeutic efficacy, clinical safety, or immunogenicity claims are made.
 3. **Explainable constraints** — every anchor carries coordinates, inferred type, confidence, and nearest receptor residues.
 4. **Restrained chemical assembly** — fragment linking respects valence and 3D distance heuristics; coordinates remain in the original PDB frame.
 
-## Reproducing the Campaign
+## Reproducing the Case Study
 
 From the `tdf-benchmark-suite` repository:
 
